@@ -15,6 +15,7 @@ namespace GeometryTestCases
 	public:
 		
 		TEST_METHOD(PerimeterTest) {
+			//Test getPerimeter with length = 5, width = 10
 			int perimLength = 5;
 			int perimWidth = 10;
 			int expectedPerim = 30;
@@ -23,6 +24,7 @@ namespace GeometryTestCases
 		}
 
 		TEST_METHOD(AreaTest) {
+			//Test getArea with length = 5, width = 10
 			int areaLength = 5;
 			int areaWidth = 10;
 			int expectedArea = 50;
